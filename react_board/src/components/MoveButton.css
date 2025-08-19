@@ -1,0 +1,23 @@
+.move_button{
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.button_myPage{;
+    background-color: white;
+    color: deepskyblue;
+}
+.button_logout{
+    background-color: white;
+    color: crimson;
+}
+.button_delete_user{
+    background-color: white;
+    color: crimson;
+}
+.button_create_user{
+    background-color: white;
+    color: dodgerblue;
+}

@@ -1,0 +1,32 @@
+.BoardList{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+    text-align : left;
+}
+.BoardList > section{
+    flex :  1;
+}
+.free_board_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.qna_board_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.ani_board_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.game_board_section{
+    display: flex;
+    flex-direction: column;
+}
+.idol_board_section{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,28 @@
+#root{
+  background-color: white;
+  max-width: 800px;
+  width:  100%;
+  margin:  0 auto;
+  min-height: 100vh;
+  box-shadow: rgb(100,100,100,0.2) 0 0 29px 8px;
+  padding: 0 20px;
+}
+
+
+#root.dark{
+  background-color: black;
+  max-width: 800px;
+  width:  100%;
+  margin:  0 auto;
+  color: white;
+  min-height: 100vh;
+  box-shadow: rgb(100,100,100,0.2) 0 0 29px 8px;
+  padding: 0 20px;
+}
+
+html , body{
+  margin: 0;
+  width:  100%;
+  background-color: rgb(246,246,246);
+  display: flex;
+}

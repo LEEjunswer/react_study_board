@@ -1,0 +1,65 @@
+.Header{
+    margin-top: 50px;
+    width:  100%;
+    text-align: center;
+}
+.Header > h4{
+}
+.tab_section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #61dafb;
+    color: white;
+    font-size: 18px;
+}
+.tab_button{
+    padding: 15px;
+    height: 100%;
+    flex:1;
+}
+.tab_section > .tab_button_1{
+    border-right: 1px solid white;
+}
+.tab_section > .tab_button_2{
+    border-right: 1px solid white;
+}
+
+.tab_section > .tab_button_3{
+    border-right: 1px solid white;
+}
+
+.tab_section > .tab_button_4{
+    border-right: 1px solid white;
+}
+.header_section{
+    display: flex;
+}
+.login_section{
+    position: absolute;
+    right: 300px;
+    top: 10px;
+    width: 250px;
+    height: 80px;
+    border: grey solid 1px;
+}
+.mode_section{
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    width: 160px;
+    height: 30px;
+}
+.id_section{
+    margin-left: 15px;
+}
+.button_section{
+    margin-top: 5px;
+}
+.mode_section > button{
+    border: none;
+    margin-top: 5px;
+    background-color: firebrick;
+}
+
