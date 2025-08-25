@@ -3,8 +3,8 @@ import BoardList from "../components/BoardList";
 
 const Home = ()=>{
     return<div>
-        <Header />
-        <BoardList/>
+        <Header viewTab={"true"}/>
+        <BoardList multi={true}/>
     </div>;
 }
 

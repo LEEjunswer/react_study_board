@@ -13,7 +13,6 @@
 
   }
     export default function ThemeProvider({ children }){
-      console.log("진입확인");
        const [theme,setTheme] = useState(getInitial);
         useEffect(() => {
             const root = document.getElementById("root");

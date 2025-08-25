@@ -30,3 +30,59 @@
     display: flex;
     flex-direction: column;
 }
+.BoardOne{
+    min-width: 80%;
+    min-height: 500px;
+}
+.type_section{
+    margin-top: 5px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.type_section > p{
+    text-align: center;
+}
+.insert_board_section{
+    margin-bottom: 40px;
+}
+.board_table{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid blue;
+}
+.th_board_number{
+    width: 10%;
+}
+.th_board_title{
+    width: 60%;
+}
+.th_board_writer{
+    width: 10%;
+}
+.th_board_create{
+    width: 20%;
+}
+.board_list{
+    text-align: center;
+}
+.board_thead{
+    background-color: #ffab5f;
+}
+.paging{
+    margin-top: 10px;
+    text-align: center;
+}
+.searching_section{
+    margin-top: 10px;
+    text-align: center;
+}
+.searching_board{
+    margin-left: 40px;
+}
+.searcging_quest{
+    margin-right: 5px;
+}
+.board_query{
+    margin-right: 5px;
+}

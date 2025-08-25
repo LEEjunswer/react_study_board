@@ -3,9 +3,10 @@
     width:  100%;
     text-align: center;
 }
-.Header > h4{
+.Header > h3{
+    cursor: pointer;
 }
-.tab_section{
+.tab_section_true{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -13,6 +14,10 @@
     background-color: #61dafb;
     color: white;
     font-size: 18px;
+}
+
+.tab_section_false{
+    display: none;
 }
 .tab_button{
     padding: 15px;
@@ -40,9 +45,10 @@
     position: absolute;
     right: 300px;
     top: 10px;
-    width: 250px;
+    width: 260px;
     height: 80px;
-    border: grey solid 1px;
+    border-radius: 5px;
+    background-color: #646cff;
 }
 .mode_section{
     position: absolute;
@@ -62,4 +68,5 @@
     margin-top: 5px;
     background-color: firebrick;
 }
+
 
