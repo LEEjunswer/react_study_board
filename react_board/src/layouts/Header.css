@@ -1,10 +1,20 @@
 .Header{
-    margin-top: 50px;
+    margin-top:20px;
     width:  100%;
     text-align: center;
 }
-.Header > h3{
+.head{
+    display: flex;
+    width: 100%;
+}
+.handler_home > h3{
+    margin-top: 30px;
+    margin-left: 120px;
     cursor: pointer;
+}
+.handler_home{
+    width: 400px;
+    text-align: center;
 }
 .tab_section_true{
     margin-top: 20px;
@@ -42,8 +52,6 @@
     display: flex;
 }
 .login_section{
-    position: absolute;
-    right: 300px;
     top: 10px;
     width: 260px;
     height: 80px;
@@ -51,8 +59,6 @@
     background-color: #646cff;
 }
 .mode_section{
-    position: absolute;
-    left: 300px;
     top: 10px;
     width: 160px;
     height: 30px;

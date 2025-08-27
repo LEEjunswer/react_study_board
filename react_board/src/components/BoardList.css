@@ -8,6 +8,7 @@
     flex :  1;
 }
 .free_board_section{
+    border-right: solid black 1px;
     display: flex;
     flex-direction: column;
 }
@@ -45,6 +46,8 @@
 }
 .insert_board_section{
     margin-bottom: 40px;
+    margin-right: 10px;
+    text-align: right;
 }
 .board_table{
     width: 90%;
